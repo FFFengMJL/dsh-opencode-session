@@ -1,0 +1,9 @@
+# dsh-opencode-session bundle patch.
+# Inserts one plugin row. The route list and optional debug log are ordinary
+# row config, so they can be overridden from the profile patch.
+- insert:
+    - id: opencode-session
+      name: dsh-opencode-session
+      config:
+        providers:
+          - opencode-go-extra
