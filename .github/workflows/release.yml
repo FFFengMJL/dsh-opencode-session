@@ -143,8 +143,6 @@ jobs:
             echo "Requires DSH ${DSH_RANGE} and Node.js ${NODE_RANGE}."
             echo "This project is MIT licensed and is intentionally not published to npm."
             echo
-            echo "> This is a draft release. GitHub download URLs are not available until it is published."
-            echo
             echo "安装前校验："
             echo
             echo '```sh'
